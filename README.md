@@ -11,7 +11,7 @@
 
 
 ###### Copyright Disclaimer: 
-I do NOT own this content nor the image featured in here. All rights belong to it's rightful owner/owner's. No copyright infringement intended.
+*I lay no claim as originator of any content or property featured here. All rights reserved to it's rightful owner/owner's. No copyright infringement intended.*
 
 ##### Credits to :
 [@peanav](https://codepen.io/peanav/pens/)
