@@ -3,5 +3,6 @@ HTML/CSS Event Calendar UI Widget
 
 [Demo Link](bit.ly/2ooqflr)
  
-<img src="https://i.imgur.com/5uZ3gFJ.png" width="150"">
+![test](https://i.imgur.com/5uZ3gFJ.png | width=48)
 
+![test](https://github.com/favicon.ico =24x48)
