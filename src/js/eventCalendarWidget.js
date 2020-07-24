@@ -1,4 +1,4 @@
- !(function() {
+ window.Calendar = (function() {
    var today = moment();
 
    function Calendar(selector, events) {
@@ -320,9 +320,7 @@
      this.next = false;
      this.draw();
    };
-
-   window.Calendar = Calendar;
-
+  
    function createElement(tagName, className, innerText) {
      var ele = document.createElement(tagName);
      if (className) {
@@ -333,4 +331,5 @@
      }
      return ele;
    }
+  return Calendar;
  })();
