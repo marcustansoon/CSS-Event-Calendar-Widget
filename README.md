@@ -3,4 +3,5 @@ HTML/CSS Event Calendar UI Widget
 
 [Demo Link](bit.ly/2ooqflr)
  
-![](https://i.imgur.com/5uZ3gFJ.png){:height="50%" width="50%"}
+<img src="https://i.imgur.com/5uZ3gFJ.png" width="150"">
+
