@@ -18,7 +18,7 @@
 }
 
 #calendarForm {
-  width: 420px;
+  width: 100%;
   height: 200px;
   overflow: hidden;
   position: absolute;
@@ -29,7 +29,7 @@
 
 .header {
   height: 50px;
-  width: 420px;
+  width: 100%;
   background: #20b9da;
   text-align: center;
   position: relative;
@@ -114,7 +114,7 @@
 
 .day {
   display: inline-block;
-  width: 60px;
+  width: 14.28%;
   padding: 10px;
   text-align: center;
   vertical-align: top;
@@ -187,7 +187,7 @@
 
 .details {
   position: relative;
-  width: 420px;
+  width: 100%;
   height: 75px;
   background: #d9f3f95c;
   margin-top: 5px;
