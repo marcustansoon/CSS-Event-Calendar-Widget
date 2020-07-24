@@ -236,8 +236,8 @@
      }, []);
 
      this.renderEvents(todaysEvents, details);
-
-     arrow.style.left = el.offsetLeft - el.parentNode.offsetLeft + 27 + "px";
+     // console.log(el.offsetLeft);
+     arrow.style.left = el.offsetLeft + el.offsetWidth / 2 + -4 + "px";
    };
 
    Calendar.prototype.renderEvents = function(events, ele) {
