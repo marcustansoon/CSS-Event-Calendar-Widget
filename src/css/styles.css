@@ -191,7 +191,7 @@
   width: 100%;
   height: 75px;
   background: #d9f3f95c;
-  margin-top: 5px;
+  /* margin-top: 5px; */
   /*-border-radius: 4px;-*/
 }
 
@@ -202,9 +202,9 @@
 }
 
 .details.out {
-  -webkit-animation: moveToTopFade 0.5s ease both;
-  -moz-animation: moveToTopFade 0.5s ease both;
-  animation: moveToTopFade 0.5s ease both;
+  -webkit-animation: moveToTopFade 0.45s ease both;
+  -moz-animation: moveToTopFade 0.45s ease both;
+  animation: moveToTopFade 0.45s ease both;
 }
 
 .arrow {
