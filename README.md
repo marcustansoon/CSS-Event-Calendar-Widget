@@ -1,5 +1,5 @@
 # CSS-Event-Calendar-Widget
->#### HTML/CSS Event Calendar UI Widget
+#### ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) HTML/CSS Event Calendar UI Widget
 
 [Demo Link](https://raw.githack.com/marcustansoon/CSS-Event-Calendar-Widget/master/demo/demo1.html)
 
@@ -10,10 +10,10 @@
 </p>
 
 
->##### Copyright Disclaimer: 
+##### ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) Copyright Disclaimer: 
 *I lay no claim as originator of any content or property featured here. All rights reserved to it's rightful owner/owner's. No copyright infringement intended.*
 
->#### Credits to :
+#### ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) Credits to :
 [@peanav](https://codepen.io/peanav/pens/)
 <br>
 [@christopherprins](https://codepen.io/christopherprins)
