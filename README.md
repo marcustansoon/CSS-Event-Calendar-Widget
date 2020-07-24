@@ -6,5 +6,5 @@ HTML/CSS Event Calendar UI Widget
 
 
 <p align="center">
-  <img src="https://i.imgur.com/5uZ3gFJ.png" width="350" title="CSS Calendar text">
+  <img src="https://i.imgur.com/KVmlqai.png" width="350" title="CSS Calendar text">
 </p>
