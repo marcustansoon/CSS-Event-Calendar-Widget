@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/styles.css">
+  </head>
+
+  <body>
+
+    <p>This example does not really do anything, other than showing you how to add the viewport meta element.</p>
+
+    <div id="calendar"></div>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.5.1/moment.min.js"></script>
+    <script src="src/js/eventCalendarWidget.js"></script>
+    <script>
+      var data = [{
+          eventName: "Lunch Meeting w/ Mark",
+          calendar: "Work",
+          color: "orange",
+          eventTime: "2020-07-25 16:47:00"
+        },
+        {
+          eventName: "Interview - Jr. Web Developer",
+          calendar: "Work",
+          color: "orange",
+          eventTime: "2020-07-2 16:47:00"
+        },
+        {
+          eventName: "Demo New App to the Board",
+          calendar: "Work",
+          color: "orange",
+          eventTime: "2020-07-5 16:47:00"
+        },
+        {
+          eventName: "Dinner w/ Marketing",
+          calendar: "Work",
+          color: "orange",
+          eventTime: "2020-07-7 16:47:00"
+        },
+
+        {
+          eventName: "Back & Biceps",
+          calendar: "Gym",
+          color: "blue",
+          eventTime: "2020-07-3 16:47:00"
+        },
+        {
+          eventName: "Chest & Triceps",
+          calendar: "Gym",
+          color: "blue",
+          eventTime: "2020-07-10 16:47:00"
+        },
+        {
+          eventName: "Legs day!",
+          calendar: "Gym",
+          color: "blue",
+          eventTime: "2020-07-20 16:47:00"
+        },
+        {
+          eventName: "Game vs San Degio",
+          calendar: "Gym",
+          color: "blue",
+          eventTime: "2020-07-30 16:47:00"
+        },
+
+        {
+          eventName: "School Play",
+          calendar: "Kids",
+          color: "yellow",
+          eventTime: "2020-07-15 16:47:00"
+        },
+        {
+          eventName: "Parent/Teacher Conference",
+          calendar: "Kids",
+          color: "yellow",
+          eventTime: "2020-07-5 16:47:00"
+        },
+        {
+          eventName: "Pick up from Soccer Practice",
+          calendar: "Kids",
+          color: "yellow",
+          eventTime: "2020-07-17 16:47:00"
+        },
+        {
+          eventName: "Ice Cream Night",
+          calendar: "Kids",
+          color: "yellow",
+          eventTime: "2020-07-1 16:47:00"
+        },
+
+        {
+          eventName: "Free Tamale Night",
+          calendar: "Appt",
+          color: "green",
+          eventTime: "2020-07-23 16:47:00"
+        },
+        {
+          eventName: "Bowling Team",
+          calendar: "Appt",
+          color: "green",
+          eventTime: "2020-07-28 16:47:00"
+        },
+        {
+          eventName: "Teach Kids to Code",
+          calendar: "Appt",
+          color: "green",
+          eventTime: "2020-07-12 16:47:00"
+        },
+        {
+          eventName: "Startup Weekend",
+          calendar: "Appt",
+          color: "green",
+          eventTime: "2020-07-13 16:47:00"
+        },
+
+        {
+          eventName: "Free Tamale Night",
+          calendar: "Other",
+          color: "red",
+          eventTime: "2020-07-23 16:47:00"
+        },
+        {
+          eventName: "Bowling Team",
+          calendar: "Other",
+          color: "red",
+          eventTime: "2020-07-28 16:47:00"
+        },
+        {
+          eventName: "Teach Kids to Code",
+          calendar: "Other",
+          color: "red",
+          eventTime: "2020-07-12 16:47:00"
+        },
+        {
+          eventName: "Startup Weekend",
+          calendar: "Other",
+          color: "red",
+          eventTime: "2020-07-13 16:47:00"
+        }
+      ];
+
+      function addDate(ev) {}
+
+      var calendar = new Calendar("#calendar", data);
+
+    </script>
+
+  </body>
+
+</html>
