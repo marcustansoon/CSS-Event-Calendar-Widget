@@ -1,7 +1,7 @@
 # CSS-Event-Calendar-Widget
 ##### HTML/CSS Event Calendar UI Widget
 
-[Demo Link](bit.ly/2ooqflr)
+[Demo Link](https://raw.githack.com/marcustansoon/CSS-Event-Calendar-Widget/master/demo/demo1.html)
 
 <br>
 
