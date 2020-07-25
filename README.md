@@ -1,6 +1,33 @@
 # CSS-Event-Calendar-Widget
-#### ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) HTML/CSS Event Calendar UI Widget (Modified & Improved version)
+#### ![#00f7ff](https://via.placeholder.com/15/00f7ff/000000?text=+) HTML/CSS Event Calendar UI Widget (Modified & Improved version)
 
+##### ![#00ff5e](https://via.placeholder.com/15/00ff5e/000000/?text=+) Sample Usage
+```html
+<div id="calendar"></div>
+```
+```javascript
+// Init data
+var data = [{
+    eventName: "Medical check-up",
+    calendar: "Deep",
+    color: "blue",
+    location: "General Hospital",
+    eventFrom: "2020-07-27 16:30:00",
+    eventTo: "2020-07-31 17:00:00",
+  },
+  {
+    eventName: "Gaming time",
+    calendar: "Hobby",
+    color: "lime",
+    location: "Cyber World",
+    eventFrom: "2020-06-26 16:30:00",
+    eventTo: "2020-06-26 17:00:00",
+  }
+];
+
+let calendar = new Calendar("#calendar", data);
+```
+      
 [Demo Link](https://raw.githack.com/marcustansoon/CSS-Event-Calendar-Widget/master/demo/demo1.html)
 
 <br>
