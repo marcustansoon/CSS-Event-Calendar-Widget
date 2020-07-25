@@ -3,6 +3,9 @@
 
 #### ![#00ff5e](https://via.placeholder.com/15/00ff5e/000000/?text=+) Sample Usage
 ```html
+/* Mobile friendly */
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 /* Import custom font family, calendar stylesheet */
 <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,600,700" rel="stylesheet">
 <link rel="stylesheet" href="https://raw.githack.com/marcustansoon/CSS-Event-Calendar-Widget/master/src/css/styles.css">
