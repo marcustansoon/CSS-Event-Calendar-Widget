@@ -44,8 +44,9 @@ var data = [{
 // Instantiate calendar 
 let calendar = new Calendar("#calendar", data);
 ```
-      
-[Demo Link](https://raw.githack.com/marcustansoon/CSS-Event-Calendar-Widget/master/demo/demo.html)
+
+#### ![#00ff5e](https://via.placeholder.com/15/00ff5e/000000/?text=+) Demo Link
+[calendar-demo.html](https://raw.githack.com/marcustansoon/CSS-Event-Calendar-Widget/master/demo/demo.html)
 
 <br>
 
