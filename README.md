@@ -34,7 +34,7 @@ var data = [{
   {
     eventName: "Workout",
     calendar: "gym",
-    color: "lime",
+    color: "coral",
     location: "Angelus Fitness",
     eventFrom: "2020-06-04 08:30:00",
     eventTo: "2020-06-05 10:30:00",
