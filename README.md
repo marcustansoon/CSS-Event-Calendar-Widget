@@ -30,6 +30,14 @@ var data = [{
     location: "Cyber World",
     eventFrom: "2020-06-26 16:30:00",
     eventTo: "2020-06-26 17:00:00",
+  },
+  {
+    eventName: "Workout",
+    calendar: "gym",
+    color: "lime",
+    location: "Angelus Fitness",
+    eventFrom: "2020-06-04 08:30:00",
+    eventTo: "2020-06-05 10:30:00",
   }
 ];
 
