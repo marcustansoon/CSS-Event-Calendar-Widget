@@ -5,7 +5,7 @@
   width: 100%;
   max-width: 450px;
   height: 100%;
-  overflow: auto;
+  overflow: hidden;
   margin: 0 auto;
   font-family: 'Nunito', arial !important;
 }
