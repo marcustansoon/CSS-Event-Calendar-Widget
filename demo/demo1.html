@@ -12,135 +12,47 @@
     <div id="calendar"></div>
     <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.5.1/moment.min.js"></script>
     <script src="../src/js/eventCalendarWidget.js"></script>
-    <script>  
-      // Get current month
-      let todaysMonth = new Date().getMonth() + 1;
-          todaysMonth = todaysMonth > 10 ? todaysMonth : '0' + todaysMonth;
-      
+    <script>
       // Init data
       var data = [{
-          eventName: "Lunch Meeting w/ Mark",
-          calendar: "Work",
-          color: "orange",
-          eventTime: "2020-"+todaysMonth+"-25 16:47:00"
+          eventName: "Medical check-up",
+          calendar: "Deep",
+          color: "blue",
+          location: "General Hospital",
+          eventFrom: "2020-07-27 16:30:00",
+          eventTo: "2020-07-31 17:00:00",
         },
         {
-          eventName: "Interview - Jr. Web Developer",
-          calendar: "Work",
-          color: "orange",
-          eventTime: "2020-"+todaysMonth+"-2 16:47:00"
+          eventName: "Gaming time",
+          calendar: "Hobby",
+          color: "lime",
+          location: "Cyber World",
+          eventFrom: "2020-06-26 16:30:00",
+          eventTo: "2020-06-26 17:00:00",
         },
         {
           eventName: "Demo New App to the Board",
           calendar: "Work",
           color: "orange",
-          eventTime: "2020-"+todaysMonth+"-5 16:47:00"
         },
         {
-          eventName: "Dinner w/ Marketing",
+          eventName: "Date with love",
+          calendar: "Others",
+          color: "orange",
+        },
+        {
+          eventName: "Working time",
+          calendar: "Appt",
+          color: "green",
+        },
+        {
+          eventName: "Meetup with friends",
+          calendar: "Unrelated",
+          color: "lime",
+        },
+        {
           calendar: "Work",
           color: "orange",
-          eventTime: "2020-"+todaysMonth+"-7 16:47:00"
-        },
-
-        {
-          eventName: "Back & Biceps",
-          calendar: "Gym",
-          color: "blue",
-          eventTime: "2020-"+todaysMonth+"-3 16:47:00"
-        },
-        {
-          eventName: "Chest & Triceps",
-          calendar: "Gym",
-          color: "blue",
-          eventTime: "2020-"+todaysMonth+"-10 16:47:00"
-        },
-        {
-          eventName: "Legs day!",
-          calendar: "Gym",
-          color: "blue",
-          eventTime: "2020-"+todaysMonth+"-20 16:47:00"
-        },
-        {
-          eventName: "Game vs San Degio",
-          calendar: "Gym",
-          color: "blue",
-          eventTime: "2020-"+todaysMonth+"-30 16:47:00"
-        },
-
-        {
-          eventName: "School Play",
-          calendar: "Kids",
-          color: "yellow",
-          eventTime: "2020-"+todaysMonth+"-15 16:47:00"
-        },
-        {
-          eventName: "Parent/Teacher Conference",
-          calendar: "Kids",
-          color: "yellow",
-          eventTime: "2020-"+todaysMonth+"-5 16:47:00"
-        },
-        {
-          eventName: "Pick up from Soccer Practice",
-          calendar: "Kids",
-          color: "yellow",
-          eventTime: "2020-"+todaysMonth+"-17 16:47:00"
-        },
-        {
-          eventName: "Ice Cream Night",
-          calendar: "Kids",
-          color: "yellow",
-          eventTime: "2020-"+todaysMonth+"-1 16:47:00"
-        },
-
-        {
-          eventName: "Free Tamale Night",
-          calendar: "Appt",
-          color: "green",
-          eventTime: "2020-"+todaysMonth+"-23 16:47:00"
-        },
-        {
-          eventName: "Bowling Team",
-          calendar: "Appt",
-          color: "green",
-          eventTime: "2020-"+todaysMonth+"-28 16:47:00"
-        },
-        {
-          eventName: "Teach Kids to Code",
-          calendar: "Appt",
-          color: "green",
-          eventTime: "2020-"+todaysMonth+"-12 16:47:00"
-        },
-        {
-          eventName: "Startup Weekend",
-          calendar: "Appt",
-          color: "green",
-          eventTime: "2020-"+todaysMonth+"-13 16:47:00"
-        },
-
-        {
-          eventName: "Free Tamale Night",
-          calendar: "Other",
-          color: "red",
-          eventTime: "2020-"+todaysMonth+"-23 16:47:00"
-        },
-        {
-          eventName: "Bowling Team",
-          calendar: "Other",
-          color: "red",
-          eventTime: "2020-"+todaysMonth+"-28 16:47:00"
-        },
-        {
-          eventName: "Teach Kids to Code",
-          calendar: "Other",
-          color: "red",
-          eventTime: "2020-"+todaysMonth+"-12 16:47:00"
-        },
-        {
-          eventName: "Startup Weekend",
-          calendar: "Other",
-          color: "red",
-          eventTime: "2020-"+todaysMonth+"-13 16:47:00"
         }
       ];
 
