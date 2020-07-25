@@ -102,7 +102,7 @@
 }
 
 .week {
-  background: ;
+  /*background: ;*/
 }
 
 .day {
@@ -112,9 +112,9 @@
   text-align: center;
   vertical-align: top;
   cursor: pointer;
-  background: ;
+  background: white;
   position: relative;
-  z-index: 100;
+  z-index: 1;
 }
 
 .day.other {
@@ -230,6 +230,7 @@
   border-width: 0 5px 5px 5px;
   border-color: transparent transparent rgb(80, 211, 212) transparent;
   transition: all 0.7s ease;
+  z-index: 2;
 }
 
 .events {
