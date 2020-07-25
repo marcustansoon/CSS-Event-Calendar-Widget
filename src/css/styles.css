@@ -13,7 +13,7 @@
   width: 100%;
   max-width: 450px;
   height: 100%;
-  overflow: hidden;
+  overflow: auto;
   margin: 0 auto;
   font-family: 'Nunito', arial !important;
 }
@@ -73,7 +73,7 @@
 .month {
   /*overflow: hidden;*/
   opacity: 0;
-  margin-top: 30px;
+  /*margin-top: 30px;*/
 }
 
 .month.new {
@@ -167,7 +167,7 @@
 }
 
 .blue {
-  background: rgba(156, 202, 235, 1);
+  background: blue;
 }
 
 .orange {
@@ -179,17 +179,37 @@
 }
 
 .yellow {
-  background: rgba(249, 233, 0, 1);
+  background: rgba(249, 228, 0, 1);
+}
+
+.purple {
+  background-color: purple;
 }
 
 .red {
   background: rgba(255, 0, 0, 1);
 }
 
+.lime {
+  background-color: lime;
+}
+
+.aqua {
+  background-color: aqua;
+}
+
+.black {
+  background-color: black;
+}
+
+.coral {
+  background-color: coral;
+}
+
 .details {
   position: relative;
   width: 100%;
-  height: 75px;
+  height: 25vh;
   background: #d9f3f95c;
   /* margin-top: 5px; */
   /*-border-radius: 4px;-*/
@@ -216,12 +236,12 @@
   height: 0px;
   border-style: solid;
   border-width: 0 5px 5px 5px;
-  border-color: transparent transparent rgb(54, 56, 63) transparent;
+  border-color: transparent transparent rgb(80, 211, 212) transparent;
   transition: all 0.7s ease;
 }
 
 .events {
-  height: 75px;
+  height: 25vh;
   padding: 7px 0;
   overflow-y: auto;
   overflow-x: hidden;
@@ -252,11 +272,18 @@
 }
 
 .event {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 22px;
   letter-spacing: 0.5px;
-  padding: 2px 16px;
+  padding: 6px 16px;
   vertical-align: top;
+  /*border-left: 8px solid #20b9da;*/
+  border-radius: 5px;
+  -moz-box-shadow: 5px 6px 9px 1px rgba(0, 0, 0, .08);
+  -webkit-box-shadow: 5px 6px 9px 1px rgba(0, 0, 0, .08);
+  box-shadow: 5px 6px 9px 1px rgba(0, 0, 0, .08);
+  margin: 12px 15px;
+  background-color: white;
 }
 
 .event.empty {
@@ -276,13 +303,44 @@
   padding: 0 0 0 7px;
 }
 
+.event .time {
+  font-size: 10px;
+  display: block;
+  color: #e7851f;
+  border: 1px solid #fefefe;
+  -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  color: #fff;
+  font-size: 9px;
+  /* font-weight: 600; */
+  width: 115px;
+  /* margin-left: 16px;*/
+  /* padding: 5px 2px; */
+  text-align: center;
+  float: right;
+}
+
+.event .date {
+  font-size: 14px;
+  color: #9faab7;
+  display: inline-block;
+}
+
+.event .location {
+  font-size: 11.5px;
+  color: #337ab7;
+}
+
 .legend {
-  position: absolute;
+  /*position: absolute;*/
   top: 50px;
   width: 100%;
-  height: 30px;
+  /*height: 30px;*/
   background: #20b9da2b;
   line-height: 30px;
+  overflow-y: auto;
 }
 
 .entry {
@@ -304,7 +362,7 @@
 }
 
 .entry.blue:after {
-  background: rgba(156, 202, 235, 1);
+  background: blue;
 }
 
 .entry.orange:after {
@@ -321,6 +379,26 @@
 
 .entry.red:after {
   background: rgba(255, 0, 0, 1);
+}
+
+.entry.coral:after {
+  background: coral;
+}
+
+.entry.purple:after {
+  background: purple;
+}
+
+.entry.lime:after {
+  background: lime;
+}
+
+.entry.black:after {
+  background: black;
+}
+
+.entry.aqua:after {
+  background: aqua;
 }
 
 /* Animations are cool!  */
@@ -515,4 +593,8 @@
     padding: 0px;
     height: 0px;
   }
+}
+
+.hidden {
+  display: none !important;
 }
