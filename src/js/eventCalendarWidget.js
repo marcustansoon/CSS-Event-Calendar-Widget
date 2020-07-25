@@ -23,12 +23,12 @@
        ev.eventName = ev.eventName || this.getRandomEventName();
 
        // Get number of day differences
-       let daysDifference = moment(ev.eventTo).diff(moment(ev.eventFrom), 'days');
+       let daysDifference = moment(ev.eventTo, "YYYY-MM-DD HH:mm:ss").diff(moment(ev.eventFrom, "YYYY-MM-DD HH:mm:ss"), 'days');
 
        // Insert into array of events for each of the day difference
        for (let day = 0; day <= daysDifference; day++) {
          let eventDate = JSON.parse(JSON.stringify(ev));
-         eventDate.eventTime = moment(ev.eventFrom).add(day, 'days').format("YYYY-MM-DD HH:mm");
+         eventDate.eventTime = moment(ev.eventFrom, "YYYY-MM-DD HH:mm:ss").add(day, 'days').format("YYYY-MM-DD HH:mm:ss");
          events_.push(eventDate);
        }
      }
@@ -301,7 +301,7 @@
        +el.querySelectorAll(".day-number")[0].textContent,
        month = el.querySelector('[month]').innerHTML,
        year = el.querySelector('[year]').innerHTML,
-       day = moment(year + '-' + month + '-' + dayNumber);
+       day = moment(year + '-' + month + '-' + dayNumber, "YYYY-MM-DD");
 
      var currentOpened = document.querySelector(".details");
 
@@ -364,7 +364,7 @@
        let div = createElement("div", "event"),
          square = createElement("div", "event-category " + ev.color),
          titleSpan = createElement("span", "", ev.eventName),
-         timeSpan = createElement("span", "time " + ev.color, moment(ev.eventFrom || 0).format('hh:mm A') + ' - ' + moment(ev.eventTo || 0).format('hh:mm A')),
+         timeSpan = createElement("span", "time " + ev.color, moment(ev.eventFrom || 0, "YYYY-MM-DD HH:mm:ss").format('hh:mm A') + ' - ' + moment(ev.eventTo || 0, "YYYY-MM-DD HH:mm:ss").format('hh:mm A')),
          locationSpan = createElement("span", "location", ev.location || 'Multi-Purpose Hall');
 
        div.appendChild(square);
