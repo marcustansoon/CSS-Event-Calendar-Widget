@@ -1,7 +1,7 @@
 # CSS-Event-Calendar-Widget
-#### ![#00f7ff](https://via.placeholder.com/15/00f7ff/000000?text=+) HTML/CSS Event Calendar UI Widget (Modified & Improved version)
+### ![#00f7ff](https://via.placeholder.com/15/00f7ff/000000?text=+) HTML/CSS Event Calendar UI Widget (Modified & Improved version)
 
-##### ![#00ff5e](https://via.placeholder.com/15/00ff5e/000000/?text=+) Sample Usage
+#### ![#00ff5e](https://via.placeholder.com/15/00ff5e/000000/?text=+) Sample Usage
 ```html
 // Import custom font family, calendar stylesheet
 <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,600,700" rel="stylesheet">
@@ -46,10 +46,10 @@ let calendar = new Calendar("#calendar", data);
 </p>
 
 
-##### ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Copyright Disclaimer: 
+#### ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Copyright Disclaimer: 
 *I lay no claim as originator of any content or property featured here. All rights reserved to it's rightful owner/owner's. No copyright infringement intended.*
 
-#### ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) Credits to :
+### ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) Credits to :
 [@peanav](https://codepen.io/peanav/pens/)
 <br>
 [@christopherprins](https://codepen.io/christopherprins)
