@@ -13,6 +13,18 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.5.1/moment.min.js"></script>
     <script src="../src/js/eventCalendarWidget.js"></script>
     <script>
+      /*
+        {
+          [
+          'eventName' : 'any name',
+          'calendar' : 'any label',
+          'color' : 'blue','orange','green','yellow','red','coral','purple','lime','black' OR 'aqua'
+          'location' : 'any location',
+          'eventFrom' : '2020-05-31 17:00:00',
+          'eventTo' : '2020-05-31 21:30:00',
+          ]
+         }
+      */
       // Init data
       var data = [{
           eventName: "Medical check-up",
@@ -55,10 +67,8 @@
           color: "orange",
         }
       ];
-
-      function addDate(ev) {}
-
-      var calendar = new Calendar("#calendar", data);
+      
+      let calendar = new Calendar("#calendar", data);
 
     </script>
 
