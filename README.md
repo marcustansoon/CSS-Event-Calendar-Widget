@@ -3,6 +3,14 @@
 
 ##### ![#00ff5e](https://via.placeholder.com/15/00ff5e/000000/?text=+) Sample Usage
 ```html
+// Import custom font family, calendar stylesheet
+<link href="https://fonts.googleapis.com/css?family=Nunito:300,400,600,700" rel="stylesheet">
+<link rel="stylesheet" href="https://raw.githack.com/marcustansoon/CSS-Event-Calendar-Widget/master/src/css/styles.css">
+
+// Import calendar JS, moment JS
+<script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.5.1/moment.min.js"></script>
+<script src="https://raw.githack.com/marcustansoon/CSS-Event-Calendar-Widget/master/src/js/eventCalendarWidget.min.js"></script>
+
 <div id="calendar"></div>
 ```
 ```javascript
@@ -10,7 +18,7 @@
 var data = [{
     eventName: "Medical check-up",
     calendar: "Deep",
-    color: "blue",
+    color: "blue", //'blue','orange','green','yellow','red','coral','purple','lime','black' OR 'aqua'
     location: "General Hospital",
     eventFrom: "2020-07-27 16:30:00",
     eventTo: "2020-07-31 17:00:00",
@@ -25,6 +33,7 @@ var data = [{
   }
 ];
 
+// Instantiate calendar 
 let calendar = new Calendar("#calendar", data);
 ```
       
