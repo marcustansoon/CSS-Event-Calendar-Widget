@@ -421,25 +421,40 @@
 }
 
 @-webkit-keyframes moveToTopFade {
+  from {
+    z-index: -1;
+  }
+
   to {
-    opacity: 0.3;
+    z-index: -1;
     height: 0px;
-    margin-top: 0px;
     opacity: 0.3;
     -webkit-transform: translateY(-100%);
   }
 }
 
 @-moz-keyframes moveToTopFade {
+  from {
+    z-index: -1;
+  }
+
   to {
+    z-index: -1;
     height: 0px;
+    opacity: 0.3;
     -moz-transform: translateY(-100%);
   }
 }
 
 @keyframes moveToTopFade {
+  from {
+    z-index: -1;
+  }
+
   to {
+    z-index: -1;
     height: 0px;
+    opacity: 0.3;
     transform: translateY(-100%);
   }
 }
