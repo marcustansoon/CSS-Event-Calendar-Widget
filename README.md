@@ -13,36 +13,38 @@
 
 <div id="calendar"></div>
 ```
-```javascript
-// Init data
-var data = [{
-    eventName: "Medical check-up",
-    calendar: "Deep",
-    color: "blue", //'blue','orange','green','yellow','red','coral','purple','lime','black' OR 'aqua'
-    location: "General Hospital",
-    eventFrom: "2020-07-27 16:30:00",
-    eventTo: "2020-07-31 17:00:00",
-  },
-  {
-    eventName: "Gaming time",
-    calendar: "Hobby",
-    color: "lime",
-    location: "Cyber World",
-    eventFrom: "2020-06-26 16:30:00",
-    eventTo: "2020-06-26 17:00:00",
-  },
-  {
-    eventName: "Workout",
-    calendar: "gym",
-    color: "coral",
-    location: "Angelus Fitness",
-    eventFrom: "2020-06-04 08:30:00",
-    eventTo: "2020-06-05 10:30:00",
-  }
-];
+```html
+<script>
+    // Init data
+    var data = [{
+        eventName: "Medical check-up",
+        calendar: "Deep",
+        color: "blue", //'blue','orange','green','yellow','red','coral','purple','lime','black' OR 'aqua'
+        location: "General Hospital",
+        eventFrom: "2020-07-27 16:30:00",
+        eventTo: "2020-07-31 17:00:00",
+      },
+      {
+        eventName: "Gaming time",
+        calendar: "Hobby",
+        color: "lime",
+        location: "Cyber World",
+        eventFrom: "2020-06-26 16:30:00",
+        eventTo: "2020-06-26 17:00:00",
+      },
+      {
+        eventName: "Workout",
+        calendar: "gym",
+        color: "coral",
+        location: "Angelus Fitness",
+        eventFrom: "2020-06-04 08:30:00",
+        eventTo: "2020-06-05 10:30:00",
+      }
+    ];
 
-// Instantiate calendar 
-let calendar = new Calendar("#calendar", data);
+    // Instantiate calendar 
+    let calendar = new Calendar("#calendar", data);
+</script>
 ```
 
 #### ![#00ff5e](https://via.placeholder.com/15/00ff5e/000000/?text=+) Demo Link
