@@ -56,7 +56,7 @@
 <br>
 
 <p align="center">
-  <img src="https://i.imgur.com/vnrjOtY.png" width="350" title="CSS Calendar text">
+  <img src="https://i.imgur.com/TtbeoLu.png" width="350" title="CSS Calendar text">
 </p>
 
 
