@@ -108,7 +108,7 @@
 .day {
   display: inline-block;
   width: 14.28%;
-  padding: 1vh 0px;
+  padding: 0.5vh 0px;
   text-align: center;
   vertical-align: top;
   cursor: pointer;
@@ -126,7 +126,7 @@
 }
 
 .day-name {
-  font-size: 9px;
+  font-size: calc(7px + 0.15vw);
   text-transform: uppercase;
   margin-bottom: 5px;
   color: ;
@@ -134,7 +134,7 @@
 }
 
 .day-number {
-  font-size: 24px;
+  font-size: calc(17px + 0.3vw);
   letter-spacing: 1.5px;
 }
 
@@ -204,6 +204,7 @@
   width: 100%;
   height: 25vh;
   background: #d9f3f95c;
+  border-radius: 15px;
   /* margin-top: 5px; */
   /*-border-radius: 4px;-*/
 }
@@ -272,7 +273,7 @@
   padding: 6px 16px;
   vertical-align: top;
   /*border-left: 8px solid #20b9da;*/
-  border-radius: 5px;
+  border-radius: 10px;
   -moz-box-shadow: 5px 6px 9px 1px rgba(0, 0, 0, .08);
   -webkit-box-shadow: 5px 6px 9px 1px rgba(0, 0, 0, .08);
   box-shadow: 5px 6px 9px 1px rgba(0, 0, 0, .08);
