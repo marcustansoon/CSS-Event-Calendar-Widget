@@ -100,11 +100,13 @@
        this.title = createElement("h1");
 
        var right = createElement("div", "right");
+       right.innerHTML = '<div style=" padding: 25px; transform: translate(-30px, -25px); "></div>';
        right.addEventListener("click", function() {
          self.nextMonth();
        });
 
        var left = createElement("div", "left");
+       left.innerHTML = '<div style=" padding: 25px; transform: translate(-20px, -25px); "></div>';
        left.addEventListener("click", function() {
          self.prevMonth();
        });
