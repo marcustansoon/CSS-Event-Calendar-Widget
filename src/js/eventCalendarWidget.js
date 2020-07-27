@@ -364,17 +364,22 @@
 
      events.forEach(function(ev) {
        let div = createElement("div", "event"),
+         href = createElement('a'),
          square = createElement("div", "event-category " + ev.color),
          titleSpan = createElement("span", "", ev.eventName),
          timeSpan = createElement("span", "time " + ev.color, moment(ev.eventFrom || 0, "YYYY-MM-DD HH:mm:ss").format('hh:mm A') + ' - ' + moment(ev.eventTo || 0, "YYYY-MM-DD HH:mm:ss").format('hh:mm A')),
          locationSpan = createElement("span", "location", ev.location || 'Multi-Purpose Hall');
 
+       // Set href URL
+       href.href = ev.href ? ? '#';
+
+       href.appendChild(div);
        div.appendChild(square);
        div.appendChild(titleSpan);
        div.appendChild(timeSpan);
        div.innerHTML += '<br>';
        div.appendChild(locationSpan);
-       wrapper.appendChild(div);
+       wrapper.appendChild(href);
      });
 
      if (!events.length) {
