@@ -129,7 +129,7 @@
   font-size: calc(7px + 0.15vw);
   text-transform: uppercase;
   margin-bottom: 5px;
-  color: ;
+  color: black;
   letter-spacing: 0.7px;
 }
 
@@ -607,4 +607,9 @@
 
 .hidden {
   display: none !important;
+}
+
+/* Only display day name on first row of calendar */
+.week:nth-child(n+2) .day-name {
+  opacity: 0;
 }
