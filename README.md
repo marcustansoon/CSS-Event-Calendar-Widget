@@ -26,6 +26,7 @@
         location: "General Hospital",
         eventFrom: "2020-07-27 16:30:00",
         eventTo: "2020-07-31 17:00:00",
+        href: "www.google.com",
       },
       {
         eventName: "Gaming time",
@@ -34,6 +35,7 @@
         location: "Cyber World",
         eventFrom: "2020-06-26 16:30:00",
         eventTo: "2020-06-26 17:00:00",
+        href: "www.yahoo.com",
       },
       {
         eventName: "Workout",
