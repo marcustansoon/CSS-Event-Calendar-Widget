@@ -374,7 +374,10 @@
          titleSpan = createElement("span", "", ev.eventName),
          timeSpan = createElement("span", "time " + ev.color, moment(ev.eventFrom || 0, "YYYY-MM-DD HH:mm:ss").format('hh:mm A') + ' - ' + moment(ev.eventTo || 0, "YYYY-MM-DD HH:mm:ss").format('hh:mm A')),
          locationSpan = createElement("span", "location", ev.location || 'Multi-Purpose Hall');
-
+       
+       // Set style
+       titleSpan.style.width = '95%';
+      
        // Set href URL
        href.href = ev.href ? ev.href : '#';
 
