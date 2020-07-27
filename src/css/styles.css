@@ -327,7 +327,7 @@
 .details .event .location {
   font-size: 11.5px;
   color: #19191a;
-  max-width: calc(95% - 125px);
+  max-width: calc(100% - 125px);
 }
 
 .legend {
