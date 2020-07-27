@@ -107,7 +107,7 @@
 .day {
   display: inline-block;
   width: 14.28%;
-  padding: 0.5vh 0px;
+  padding: 1vh 0px;
   text-align: center;
   vertical-align: top;
   cursor: pointer;
@@ -133,8 +133,8 @@
 }
 
 .day-number {
-  font-size: calc(17px + 0.3vw);
   letter-spacing: 1.5px;
+  line-height: 150%;
 }
 
 .day .day-events {
@@ -201,7 +201,7 @@
 .details {
   position: relative;
   width: 100%;
-  height: 25vh;
+  height: 30vh;
   background: #d9f3f95c;
   border-radius: 15px;
   margin-top: 5px;
@@ -234,7 +234,7 @@
 }
 
 .details .events {
-  height: 25vh;
+  height: 30vh;
   padding: 7px 0;
   overflow-y: auto;
   overflow-x: hidden;
@@ -318,13 +318,14 @@
 
 .details .event .date {
   font-size: 14px;
-  color: #9faab7;
+  color: #19191a;
   display: inline-block;
 }
 
 .details .event .location {
   font-size: 11.5px;
   color: #337ab7;
+  max-width: calc(95% - 125px);
 }
 
 .legend {
