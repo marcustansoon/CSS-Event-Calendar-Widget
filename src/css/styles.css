@@ -318,13 +318,13 @@
 
 .details .event .date {
   font-size: 14px;
-  color: #19191a;
+  color: #9faab7;
   display: inline-block;
 }
 
 .details .event .location {
   font-size: 11.5px;
-  color: #337ab7;
+  color: #19191a;
   max-width: calc(95% - 125px);
 }
 
