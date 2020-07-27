@@ -10,7 +10,7 @@
        let ev = events[eventIndex];
 
        // Preset color if doesn't exists
-       ev.color = ev.color || 'black';
+       ev.color = ev.color || this.getRandomColor();
 
        // Preset 'eventFrom' and 'eventTo' if doesn't exists
        if (!ev.eventFrom || !ev.eventTo) {
@@ -50,7 +50,7 @@
      }
    };
   
-   Calendar.prototype.getRandomDateRange = function() {
+   Calendar.prototype.getRandomColor = function() {
      let colors = ['blue', 'orange', 'green', 'yellow', 'purple', 'red', 'lime', 'aqua', 'black', 'coral'];
      return colors[Math.floor(Math.random() * colors.length)];
    }
