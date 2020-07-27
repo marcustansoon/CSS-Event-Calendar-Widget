@@ -128,7 +128,7 @@
 .day-name {
   font-size: calc(7px + 0.15vw);
   text-transform: uppercase;
-  margin-bottom: 5px;
+  margin: 5px;
   color: black;
   letter-spacing: 0.7px;
 }
