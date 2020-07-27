@@ -371,7 +371,7 @@
        let div = createElement("div", "event"),
          href = createElement('a'),
          square = createElement("div", "event-category " + ev.color),
-         titleSpan = createElement("span", "", ev.eventName),
+         titleSpan = createElement("span", "width95", ev.eventName),
          timeSpan = createElement("span", "time " + ev.color, moment(ev.eventFrom || 0, "YYYY-MM-DD HH:mm:ss").format('hh:mm A') + ' - ' + moment(ev.eventTo || 0, "YYYY-MM-DD HH:mm:ss").format('hh:mm A')),
          locationSpan = createElement("span", "location", ev.location || 'Multi-Purpose Hall');
 
