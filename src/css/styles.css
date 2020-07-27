@@ -136,6 +136,7 @@
 .day-number {
   letter-spacing: 1.5px;
   line-height: 150%;
+  font-size: larger;
 }
 
 .day .day-events {
