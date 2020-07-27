@@ -49,6 +49,11 @@
        }, 500);
      }
    };
+  
+   Calendar.prototype.getRandomDateRange = function() {
+     let colors = ['blue', 'orange', 'green', 'yellow', 'purple', 'red', 'lime', 'aqua', 'black', 'coral'];
+     return colors[Math.floor(Math.random() * colors.length)];
+   }
 
    Calendar.prototype.getRandomDateRange = function() {
      let dateFrom = Math.floor(Math.random() * 25) + 1,
@@ -69,8 +74,8 @@
    };
 
    Calendar.prototype.getRandomEventName = function() {
-     let temp = ['Community Garden Workshop', 'Arts Festival', 'Gardening', "Adam's birthday party", "St. Patrick Day", 'Valentine Day', "April Fool's Day", 'Earth Day', "Mother's Day", "Father's Day", 'Memorial Day', 'Grandma Visit', 'Doing homework', 'Doing household chores', 'Feeding pets', 'Vacuuming', 'Doing laundry', 'Floor sweeping', 'Surf social media', 'Studying for exam', 'Movie theatre', 'Meeting with old pals', 'Conference meeting', 'Group discussion', 'Interview with Jr. Web Developer', 'Presentation', 'Teach Kids to Code', 'Cooking time', 'Playing basketball', 'Playing football', 'Lunch with families', 'Lunch with Colleagues', 'Outings with Mark', 'Gaming time', 'Free Tamale Night'];
-     return temp[Math.floor(Math.random() * temp.length)];
+     let titles = ['Community Garden Workshop', 'Arts Festival', 'Gardening', "Adam's birthday party", "St. Patrick Day", 'Valentine Day', "April Fool's Day", 'Earth Day', "Mother's Day", "Father's Day", 'Memorial Day', 'Grandma Visit', 'Doing homework', 'Doing household chores', 'Feeding pets', 'Vacuuming', 'Doing laundry', 'Floor sweeping', 'Surf social media', 'Studying for exam', 'Movie theatre', 'Meeting with old pals', 'Conference meeting', 'Group discussion', 'Interview with Jr. Web Developer', 'Presentation', 'Teach Kids to Code', 'Cooking time', 'Playing basketball', 'Playing football', 'Lunch with families', 'Lunch with Colleagues', 'Outings with Mark', 'Gaming time', 'Free Tamale Night'];
+     return titles[Math.floor(Math.random() * titles.length)];
    };
 
    Calendar.prototype.draw = function() {
