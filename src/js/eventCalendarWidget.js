@@ -9,7 +9,7 @@
      for (let eventIndex = 0, eventsCount = events.length; eventIndex < eventsCount; eventIndex++) {
        let ev = events[eventIndex];
 
-       // Preset color if doesn't exists
+       // Preset random color if doesn't exists
        ev.color = ev.color || this.getRandomColor();
 
        // Preset 'eventFrom' and 'eventTo' if doesn't exists
@@ -371,7 +371,7 @@
        let div = createElement("div", "event"),
          href = createElement('a'),
          square = createElement("div", "event-category " + ev.color),
-         titleSpan = createElement("span", "width95", ev.eventName),
+         titleSpan = createElement("span", "", ev.eventName),
          timeSpan = createElement("span", "time " + ev.color, moment(ev.eventFrom || 0, "YYYY-MM-DD HH:mm:ss").format('hh:mm A') + ' - ' + moment(ev.eventTo || 0, "YYYY-MM-DD HH:mm:ss").format('hh:mm A')),
          locationSpan = createElement("span", "location", ev.location || 'Multi-Purpose Hall');
 
