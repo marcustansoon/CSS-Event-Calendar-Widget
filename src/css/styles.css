@@ -611,5 +611,5 @@
 
 /* Only display day name on first row of calendar */
 .week:nth-child(n+2) .day-name {
-  opacity: 0;
+  display: none;
 }
