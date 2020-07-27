@@ -49,7 +49,7 @@
        }, 500);
      }
    };
-  
+
    Calendar.prototype.getRandomColor = function() {
      let colors = ['blue', 'orange', 'green', 'yellow', 'purple', 'red', 'lime', 'aqua', 'black', 'coral'];
      return colors[Math.floor(Math.random() * colors.length)];
@@ -136,11 +136,13 @@
        this.title = createElement("h1");
 
        var right = createElement("div", "right");
+       right.innerHTML = '<div style=" padding: 25px; transform: translate(-30px, -25px); "></div>';
        right.addEventListener("click", function() {
          self.nextMonth();
        });
 
        var left = createElement("div", "left");
+       left.innerHTML = '<div style=" padding: 25px; transform: translate(-20px, -25px); "></div>';
        left.addEventListener("click", function() {
          self.prevMonth();
        });
@@ -374,10 +376,10 @@
          titleSpan = createElement("span", "", ev.eventName),
          timeSpan = createElement("span", "time " + ev.color, moment(ev.eventFrom || 0, "YYYY-MM-DD HH:mm:ss").format('hh:mm A') + ' - ' + moment(ev.eventTo || 0, "YYYY-MM-DD HH:mm:ss").format('hh:mm A')),
          locationSpan = createElement("span", "location", ev.location || 'Multi-Purpose Hall');
-       
+
        // Set style
        titleSpan.style.width = '95%';
-      
+
        // Set href URL
        href.href = ev.href ? ev.href : '#';
 
