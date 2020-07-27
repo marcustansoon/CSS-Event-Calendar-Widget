@@ -205,7 +205,7 @@
   height: 25vh;
   background: #d9f3f95c;
   border-radius: 15px;
-  /* margin-top: 5px; */
+  margin-top: 5px;
   /*-border-radius: 4px;-*/
 }
 
@@ -232,7 +232,6 @@
   border-width: 0 5px 5px 5px;
   border-color: transparent transparent rgb(80, 211, 212) transparent;
   transition: all 0.7s ease;
-  z-index: 2;
 }
 
 .events {
