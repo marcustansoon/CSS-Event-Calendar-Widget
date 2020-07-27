@@ -371,7 +371,7 @@
          locationSpan = createElement("span", "location", ev.location || 'Multi-Purpose Hall');
 
        // Set href URL
-       href.href = ev.href ? ? '#';
+       href.href = ev.href ? ev.href : '#';
 
        href.appendChild(div);
        div.appendChild(square);
