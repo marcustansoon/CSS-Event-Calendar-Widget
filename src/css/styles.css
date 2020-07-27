@@ -9,7 +9,9 @@
   margin: 0 auto;
   font-family: 'Nunito', arial !important;
 }
-
+.width95{
+ width: 95%; 
+}
 #calendarForm {
   width: 100%;
   height: 200px;
