@@ -378,7 +378,7 @@
          locationSpan = createElement("span", "location", ev.location || 'Multi-Purpose Hall');
        
        // Set style
-       titleSpan.style.width = '95%';
+       titleSpan.style.maxWidth = '95%';
       
        // Set href URL
        href.href = ev.href ? ev.href : '#';
